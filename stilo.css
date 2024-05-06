@@ -1,0 +1,47 @@
+.contenedor{
+       display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
+ .uno{
+    background-color: blue;
+ }
+ .dos{
+    background-color: red;
+ }
+ .tres{
+    background-color: green;
+ }
+ .cuatro{
+    background-color: pink;
+ }
+ .cinco{
+    background-color: aqua;
+ }
+ .seis{
+    background-color: blueviolet;
+ }
+ .siete{
+    background-color: black;
+ }
+ .ocho{
+    background-color: coral;
+ }
+ .nueve{
+    background-color: brown;
+ }
+ @media only screen and (min-width: 320px;)
+   {grid-row: .uno; .dos; .tres;}
+   .uno{background-color: yellow;}
+   .dos{background-color: black;}
+   .tres{background-color:brown ;}
+
+   @media only screen and (min-width: 321px;) (max-width:768px)
+   {grid-row: .uno; .dos; .tres;}
+   .uno{background-color: rgb(93, 0, 255);}
+   .dos{background-color: rgb(191, 70, 120);}
+   .tres{background-color:rgb(42, 165, 93) ;}
+
+   @media only screen and (max-width: 799px;)
+.contenedor
